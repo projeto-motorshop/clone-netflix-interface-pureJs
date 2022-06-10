@@ -1,0 +1,105 @@
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+        row-gap: 40px;
+    }
+
+
+    .conteiner {
+
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        height: 700px;
+        justify-content: space-around;
+        row-gap: 20px;
+
+    }
+
+    .logo {
+        margin-top: 20px;
+        width: 229px;
+        height: 68px;
+    }
+
+    .logo-img {
+        width: 229px;
+        height: 68px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        width: 334px;
+        height: 42px;
+        color: #ffffff;
+    }
+
+    .perfis {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        color: #9C9C9C;
+        border: 1px transparent;
+    }
+
+    .card:hover {
+        color: #ffffff;
+        cursor: pointer;
+        overflow: hidden;
+
+
+    }
+
+    img:hover {
+        border: 1px solid #ffffff;
+        scale: 1.0;
+        overflow: hidden;
+    }
+
+
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+
+        margin-top: 25px;
+        width: 206px;
+        height: 50px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+
+    }
+
+    button:hover {
+        background-color: #ffffff;
+        color: black;
+    }
