@@ -72,7 +72,7 @@
 
     }
 
-    img:hover {
+    .card>img:hover {
         border: 1px solid #ffffff;
         scale: 1.0;
         overflow: hidden;
